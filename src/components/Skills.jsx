@@ -1,24 +1,40 @@
 import React from "react";
 const skills = [
   {
-    name: "UI/UX Design",
+    name: "HTML & CSS",
     expertise: 95,
   },
   {
-    name: "Photography",
+    name: "JavaScript",
     expertise: 90,
   },
   {
-    name: "Creativity",
+    name: "ReactJS",
     expertise: 80,
   },
   {
-    name: "Team Work",
+    name: "Tailwind",
     expertise: 95,
   },
   {
-    name: "Web Design",
+    name: "Bootstrap",
     expertise: 95,
+  },
+  {
+    name: "PHP and Laravel",
+    expertise: 55,
+  },
+  {
+    name: "NodeJS",
+    expertise: 60,
+  },
+  {
+    name: "MongoDB",
+    expertise: 50,
+  },
+  {
+    name: "MySQL",
+    expertise: 70,
   },
 ];
 

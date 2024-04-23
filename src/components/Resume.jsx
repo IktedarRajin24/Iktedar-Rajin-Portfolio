@@ -2,35 +2,41 @@ import React from "react";
 
 const education = [
   {
-    title: "B.A. and M.S., in Computer Science",
-    institution: "Harvard University",
-    duration: "2016- 2020",
+    title: "BSc in Computer Science and Engineering",
+    institution: "American International University-Bangladesh",
+    duration: "2019- 2023",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis minus, id consectetur explicabo ipsa obcaecati iure molestias voluptatum numquam, veritatis illo iusto repudiandae tempora aperiam, corrupti eveniet eum vitae!",
+      "Completed my Bachelors in Computer science and engineering with a CGPA of 3.68 out of 4. My major was software engineering. I also completed my thesis on Blockchain technology.",
   },
   {
-    title: "Bachelor Degree",
-    institution: "Helwan University",
-    duration: "2014- 2016",
+    title: "Higher School Certificate (HSC)",
+    institution: "Dhaka College, Dhaka",
+    duration: "2016- 2018",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis minus, id consectetur explicabo ipsa obcaecati iure molestias voluptatum numquam, veritatis illo iusto repudiandae tempora aperiam, corrupti eveniet eum vitae!",
+      "I completed my HSC from Dhaka college with a GPA of 4.92 out of 5. I belong to science background.",
+  },
+  {
+    title: "Secondary School Certificate (SSC)",
+    institution: "Ideal School and College, Dhaka",
+    duration: "2011- 2016",
+    description:
+      "I completed my SSC from Ideal School and College with a GPA of 5 out of 5. I belong to science background.",
   },
 ];
 
 const experience = [
   {
-    title: "UI/UX Designer",
-    role: "Website Design",
-    duration: "2016- 2022",
+    title: "Associate Software Engineer",
+    company: "Secure Link Services Limited",
+    duration: "March 2023- December 2023",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis minus, id consectetur explicabo ipsa obcaecati iure molestias voluptatum numquam, veritatis illo iusto repudiandae tempora aperiam, corrupti eveniet eum vitae!",
+      "Successfully integrated SOAP APIs into a ServiceNow external portal, enhancing data connectivity and functionality. Spearheaded the development of a Leave management application within the ServiceNow platform, streamlining HR processes Demonstrated proficiency in React by integrating APIs and building responsive CRUD applications, showcasing strong front-end development skills. Gained considerable office experience by frequently participating in team initiatives and upholding a solid work culture that included punctuality and teamwork for over a year. Proven track record of effectively working in a professional team environment, contributing to the company's goals, and ensuring the delivery of high-quality software solutions.",
   },
   {
-    title: "Junior Web Designer",
-    role: "Product Designer",
-    duration: "2012- 2016",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis minus, id consectetur explicabo ipsa obcaecati iure molestias voluptatum numquam, veritatis illo iusto repudiandae tempora aperiam, corrupti eveniet eum vitae!",
+    title: "Intern Software Engineer",
+    company: "Secure Link Services Limited",
+    duration: "November 2022- February 2023",
+    description: "Getting trained in ServiceNow and HubSpot CRM.",
   },
 ];
 
@@ -93,7 +99,7 @@ const Resume = () => {
                   </div>
                   <div className="w-full px-5 py-5 bg-[#121414] border-[1px] border-[#646464] rounded-[8px] hover:scale-[1.02] transition-transform duration-500">
                     <h1 className="text-2xl font-semibold bg-gradient-to-r from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent">
-                      {ex.role}
+                      {ex.company}
                     </h1>
                     <p className="text-[#8f8f8f] my-2">{ex.title}</p>
                     <div className="w-full h-[2px] bg-[#222222] my-3"></div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Input = ({ label, type, width, height }) => {
+const Input = ({ label, type, width, height, name }) => {
   const inputStyle = {
     width: width,
     height: height,
@@ -13,6 +13,7 @@ const Input = ({ label, type, width, height }) => {
         type={type}
         id="name"
         style={inputStyle}
+        name={name}
       />
     </div>
   );
